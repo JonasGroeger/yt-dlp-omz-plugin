@@ -10,17 +10,20 @@ Adds several commands for downloading audio and video files from Youtube:
 
 ## Install
 
-* Clone this repo
+1. Clone this repo
+```
+git clone https://github.com/JonasGroeger/yt-dlp-omz-plugin.git "$ZSH_CUSTOM/plugins/yt-dlp"
+```
 
-  git clone https://github.com/JonasGroeger/yt-dlp-omz-plugin.git "$ZSH_CUSTOM/plugins/yt-dlp"
+2. Enable (add `yt-dlp` to `plugins` in `~/.zshrc`)
+```
+plugins=(… yt-dlp)
+```  
 
-* Enable (add `yt-dlp` to `plugins` in `~/.zshrc`
-
-  plugins=(… yt-dlp)
-
-* Reload Oh-My-Zsh config
-
-  omz reload
+3. Reload Oh-My-Zsh config
+```
+omz reload
+```
 
 ## Links
 
