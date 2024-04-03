@@ -1,4 +1,4 @@
-alias _yt-dlp="yt-dlp --quiet --no-progress --no-playlist --restrict-filenames --output '~/Downloads/Youtube/%(title)s-[%(id)s].%(ext)s'"
+alias _yt-dlp="yt-dlp --quiet --progress --no-playlist --restrict-filenames --output '~/Downloads/%(title)s-[%(id)s].%(ext)s'"
 
 # Music
 alias yt-dlp-audio-mp3="_yt-dlp --format bestaudio --extract-audio --audio-format mp3"
